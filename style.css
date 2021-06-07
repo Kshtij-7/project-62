@@ -1,0 +1,34 @@
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+body {
+    text-align: center;
+}
+#gameslide {
+    background-color: red;
+}
+#gameslide img {
+    height: 400px;
+    margin-top: 20px;
+}
+.carousel-inner p {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+.carousel-inner {
+    background-color: black;
+}
+#spriteslide {
+    background-color: darkblue;
+}
+#spriteslide img {
+    height: 400px;
+    margin-top: 20px;
+}

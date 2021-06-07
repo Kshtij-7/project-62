@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Photo Gallery</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#grid">Grid Gallery</a></li>
+                <li><a href="#slid">Sliding Gallery</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div id="poster" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+
+                        <img src="poster1.png" class="img-responsive">
+
+
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+
+                        <img src="poster2.png" class="img-responsive">
+
+
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+
+                        <img src="poster3.jpeg" class="img-responsive">
+
+
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#poster" data-slide="prev"> <span
+                    class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#poster" data-slide="next"> <span
+                    class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+    </div>
+
+    <br><br>
+
+    
+    <br><br>
+
+    <section id="slid">
+
+        
+
+        <br><br>
+
+        <h1>Sliding Gallery</h1>
+
+        <br>
+
+        <div class="container">
+
+            <div id="sliderr" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderr" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderr" data-slide-to="1"></li>
+                    <li data-target="#sliderr" data-slide-to="2"></li>
+                    <li data-target="#sliderr" data-slide-to="3"></li>
+                    <li data-target="#sliderr" data-slide-to="4"></li>
+                    <li data-target="#sliderr" data-slide-to="5"></li>
+                    <li data-target="#sliderr" data-slide-to="6"></li>
+                    <li data-target="#sliderr" data-slide-to="7"></li>
+                    <li data-target="#sliderr" data-slide-to="8"></li>
+                    <li data-target="#sliderr" data-slide-to="9"></li>
+                    <li data-target="#sliderr" data-slide-to="10"></li>
+                    <li data-target="#sliderr" data-slide-to="11"></li>
+                    <li data-target="#sliderr" data-slide-to="12"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="harry.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Harry Potter (AKA The Chosen one, The boy who lived)</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="ron.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Ron Weasley</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="hermonie.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Hermonie Granger</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="ginny.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Ginny Weasley</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="sirius.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Sirius Black</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="neville.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Neville Longbottom</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="dumbledore.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Albus Percival Wulfric Brian Dumbledore</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="fredandgeogre.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Fred and George Weasley [Weasly twins]</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="draco.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Draco Malfoy</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="severus.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Severus Snape</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="voldemort.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Voldemort (AKA Dark Lord, Tom Riddle, You know who)</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="bellatrix.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Bellatrix Lestrange</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="lucius.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p>Lucius Malfoy</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <a class="left carousel-control" href="#sliderr" data-slide="prev"> <span
+                class="glyphicon glyphicon-chevron-left"></span> </a>
+        <a class="right carousel-control" href="#sliderr" data-slide="next"> <span
+                class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        </div>
+
+
+    </section>
+    <br><br>
+
+    <section id="grid">
+        <br>
+        <h1>Grid Gallery</h1>
+        <br>
+        <span><img src="sirius.jpeg"></span><span><img src="harry.jpeg"></span><span><img
+                src="ron.jpeg"></span><span><img src="hermonie.jpeg"></span><span><img src="ginny.jpeg"></span>
+        <br>
+        <span><img src="neville.jpeg"></span><span><img src="dumbledore.jpeg"></span><span><img
+                src="fredandgeogre.jpeg"></span><span><img src="draco.jpeg"></span>
+        <br>
+        <span><img src="severus.jpeg"></span><span><img src="voldemort.jpeg"></span><span><img
+                src="bellatrix.jpeg"></span><span><img src="lucius.jpeg"></span>
+
+
+    </section>
+
+    <!--
+
+        <section id="sec1app">
+            <br>
+            <h2>App lab</h2><br>
+            <hr><br>
+            <iframe width="400" height="620" style="border: 4px;"
+                src="https://studio.code.org/projects/applab/wDMEyLWPYGWDiSIa32v0HSme8xddeUn2IGSvg9GBYdA/embed?nosource"></iframe>
+            <iframe width="400" height="620" style="border: 4px;"
+                src="https://studio.code.org/projects/applab/E9QLIkPW6XnclYPivN2sg40I2Khzh2S8BjZrOeRtqMs/embed?nosource"></iframe>
+            <iframe width="400" height="620" style="border: 0px;"
+                src="https://studio.code.org/projects/applab/Spwmzp1TfW23h3YDo_VlL8ZOOKQSkCR_NyYopTBBNZw/embed?nosource"></iframe>
+            <br><br>
+        </section>
+        <hr><br>
+        <h2>Game Lab</h2><br>
+        <hr><br>
+        <div id="gameslide" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/gamelab/usWQ9TIgumPKgPQwvNzYCLKBcbHh2FUb3FQ9caI16ar/embed?nosource"
+                            target="_blank">
+                            <img src="RobotsGoneWrong.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Robots Gone Wrong</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/gamelab/dV6QmKGCE2MrfEg4Dd_hfC9X0RWmWh_W6i_Iw78Rlfw/embed?nosource"
+                            target="_blank">
+                            <img src="GetTheBurger.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Get The Burger</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#gameslide" data-slide="prev"> <span
+                    class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#gameslide" data-slide="next"> <span
+                    class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        <br><br>
+        <hr><br>
+        <h2>Sprite Lab</h2><br>
+        <hr><br>
+        <div id="poster" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+
+                        <img src="poster1.png" class="img-responsive">
+
+
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+
+                        <img src="poster2.png" class="img-responsive">
+
+
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+
+                        <img src="poster3.jpeg" class="img-responsive">
+
+
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#poster" data-slide="prev"> <span
+                    class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#poster" data-slide="next"> <span
+                    class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        <br><br>
+        <hr><br>
+        <h2>ChatBots</h2><br>
+        <hr><br>
+        <iframe height="620" width="400" src="https://console.dialogflow.com/api-client/demo/embedded/KL7"></iframe>
+        -->
+    </div>
+</body>
+
+</html>
